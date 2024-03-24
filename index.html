@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web 聊天</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="chat-container" id="chatContainer">
+  <div class="chat-box" id="chatBox"></div>
+  <select id="identitySelect">
+    <option value="A">身份A</option>
+    <option value="B">身份B</option>
+    <option value="C">身份C</option>
+  </select>
+  <input type="text" id="messageInput" placeholder="输入您的消息...">
+  <input type="file" id="imageInput">
+  <button onclick="sendMessage()">发送</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
